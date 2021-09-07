@@ -16,18 +16,25 @@ function draw() {
     var u = random(50,120);
     var x = random(windowWidth-120);
     var y = random(windowHeight-120);
-    fill(random(100,255),random(100,255),random(100,255));
-    rect(x,y,u,u);
+    Box()
     u=u/2;
-    fill(random(100,255),random(100,255),random(100,255));
-    rect(x,y,u,u);
+    Box()
     u=u/2;
-    fill(255,255,0);
-    rect(x,y,u,u);
+    BoxSmall()
     i=i+1
   }
   if (i == 100) {
     background(random(130,255),50,100);
     i=0;
+  }
+
+  function Box() {
+    fill(random(100,255),random(100,255),random(100,255));
+    rect(x,y,u,u);
+  }
+  
+  function BoxSmall() {
+    fill(255,255,0);
+    rect(x,y,u,u);
   }
 }
