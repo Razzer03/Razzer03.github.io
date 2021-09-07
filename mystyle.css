@@ -1,0 +1,66 @@
+body {
+	background-color: lightblue;
+}
+
+div {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+	height: 38px;
+}
+
+ul li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: linear 0.2s;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: blue;
+}
+
+ul li a:active {
+	background-color: black;
+}
+
+::selection {
+	color: white;
+	background-color: black;
+}
