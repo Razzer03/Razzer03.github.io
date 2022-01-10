@@ -16,7 +16,7 @@ function setup() {
   gameState = 'Spiller';
 
   //Bolden bliver lavet ved brug af constructoren: bold = new ball(PosX, PosY, Bredde, Længde, Fart, Farve)
-  bold = new ball(width/2, height/2, 15, 15, 10, "red");
+  bold = new ball(width/2, height/2, 15, 15, 5, "red");
   //Brættet bliver lavet ved brug af constructoren:  bræt = new paddle(PosX, PosY, Bredde, Længde, Farve)
   bræt = new paddle(mouseX,windowHeight-100,150,25,"black");
   
