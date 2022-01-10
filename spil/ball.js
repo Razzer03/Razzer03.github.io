@@ -63,7 +63,7 @@ class ball {
 
   //Der skal nu også bestemmes hvad der skal gøres hvis at bolden ikke rammer brættet, så hvis den ryger under brættet bliver this.finished sat til true, som vi bruger at vide hvornår spillet er færdigt
   finish() {
-    if (this.bally >= windowHeight - 99 && !this.finished) {
+    if (this.bally >= windowHeight - 80 && !this.finished) {
     this.finished = true;
     vejx=0;
     vejy=0;
